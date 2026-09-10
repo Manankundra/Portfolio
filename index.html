@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Manan Kundra — Full-Stack Developer &amp; AI/ML Engineer</title>
+<meta name="description" content="Manan Kundra — Full-stack developer and AI/ML engineer based in Delhi, India. Building web products, computer vision tools, and recommendation systems." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="noise-overlay"></div>
+
+<div id="sharedPhoto" class="shared-photo" aria-hidden="true">
+  <div class="shared-photo__inner" id="sharedPhotoInner">
+    <img class="shared-photo__face shared-photo__face--front" src="assets/manan-photo.jpg" alt="" />
+    <img class="shared-photo__face shared-photo__face--back" src="assets/manan-photo.jpg" alt="" />
+  </div>
+</div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <a href="#top" class="nav__mark">Manan</a>
+  <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">•••</button>
+</header>
+
+<div class="nav-dropdown" id="navDropdown">
+  <div class="nav-dropdown__head">
+    <span>Manan</span>
+    <button id="navClose" aria-label="Close menu">×</button>
+  </div>
+  <a href="#about" data-nav>About Me</a>
+  <a href="#services" data-nav>Services</a>
+  <a href="#work" data-nav>Projects</a>
+  <a href="#experience" data-nav>Experience</a>
+  <a href="#contact" data-nav>Contact</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero__inner">
+    <div class="hero__eyebrow">Delhi, India — available for freelance work</div>
+
+    <h1 class="hero__title-wrap">
+      <svg class="hero__deco hero__deco--sparkle" width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <path d="M50 4 C52 30 56 42 92 50 C56 58 52 70 50 96 C48 70 44 58 8 50 C44 42 48 30 50 4 Z" fill="#14120F"/>
+      </svg>
+
+      <span class="hero__title">Full&#8209;Stack</span>
+
+      <span class="hero__portrait" id="heroPortraitSlot">
+        <img id="heroPhotoStatic" src="assets/manan-photo.jpg" alt="Manan Kundra" />
+      </span>
+
+      <span class="hero__title">AI Engineer</span>
+
+      <svg class="hero__deco hero__deco--bolt" width="62" height="62" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <path d="M62 2 L18 54 L46 54 L34 98 L86 40 L54 40 Z" fill="#14120F"/>
+      </svg>
+    </h1>
+
+    <div class="hero__foot">
+      <div class="hero__copyright">
+        <span class="c-mark">©</span>
+        <span>2026</span>
+      </div>
+
+      <div class="hero__foot-right">
+        <span class="hero__tagline">/BUILDING SINCE 2024</span>
+        <div class="hero__actions">
+          <a href="#work" class="btn btn--primary">View my work</a>
+          <a href="assets/Manan_Kundra_Resume.pdf" class="btn btn--ghost" download>Download résumé</a>
+        </div>
+        <div class="hero__badge"><span class="dot"></span> Open to freelance work</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="marquee">
+    <div class="marquee__track">
+      <span>React.js — FastAPI — OpenCV — Scikit-learn — SQL — Node.js — NLP — Python — React.js — FastAPI — OpenCV — Scikit-learn — SQL — Node.js — NLP — Python —&nbsp;</span>
+      <span>React.js — FastAPI — OpenCV — Scikit-learn — SQL — Node.js — NLP — Python — React.js — FastAPI — OpenCV — Scikit-learn — SQL — Node.js — NLP — Python —&nbsp;</span>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about__grid">
+    <div class="about__col">
+      <h2 class="about__hey">Hey!</h2>
+      <p class="about__personal">I'm Manan, a full-stack developer and AI/ML engineer
+      based in Delhi, India, currently training in applied AI while freelancing on
+      client SaaS products.</p>
+    </div>
+
+    <div class="about__portrait" id="aboutPortraitSlot">
+      <img id="aboutPhotoStatic" src="assets/manan-photo.jpg" alt="Manan Kundra" />
+    </div>
+
+    <div class="about__col about__col--right">
+      <p class="about__pro">I build software end to end — from role-based dashboards
+      and authentication flows to the machine learning underneath a recommendation
+      engine.</p>
+      <p class="about__pro">My work sits at the intersection of full-stack engineering
+      and applied AI: React and FastAPI on one side, scikit-learn and OpenCV on the
+      other — shipped for real clients, not just for a resume.</p>
+      <a href="assets/Manan_Kundra_Resume.pdf" class="about__link" download>View résumé <span>↗</span></a>
+    </div>
+  </div>
+
+  <div class="about__facts">
+    <div class="fact">
+      <span class="fact__label">Currently</span>
+      <span class="fact__value">AI/ML Trainee &amp; Intern at CodingBolt</span>
+    </div>
+    <div class="fact">
+      <span class="fact__label">Education</span>
+      <span class="fact__value">BCA, GGSIPU — 7.7 CGPA</span>
+    </div>
+    <div class="fact">
+      <span class="fact__label">Based in</span>
+      <span class="fact__value">Delhi, India</span>
+    </div>
+    <div class="fact">
+      <span class="fact__label">Open to</span>
+      <span class="fact__value">Freelance &amp; full-time roles</span>
+    </div>
+  </div>
+</section>
+
+<!-- STATEMENT (pinned scroll-reveal) -->
+<section class="statement" id="statement">
+  <div class="statement__sticky">
+    <p class="statement__text" data-reveal>
+      From first commit to production. I build products that stay clean, fast, and
+      hold up under real users — grounded in solid architecture on one side and
+      practical, working AI on the other.
+    </p>
+  </div>
+</section>
+
+<!-- SERVICES / WHAT I DO -->
+<section class="services" id="services">
+  <h2 class="services__heading" data-reveal-block>What I do</h2>
+
+  <div class="services__list">
+    <div class="service-row" data-reveal-block>
+      <h3>Full-Stack Development</h3>
+      <span class="service-row__tags">React.js · Node.js &amp; FastAPI · Auth &amp; Dashboards</span>
+    </div>
+    <div class="service-row" data-reveal-block>
+      <h3>AI &amp; Machine Learning</h3>
+      <span class="service-row__tags">Recommendation Systems · Classification · EDA</span>
+    </div>
+    <div class="service-row" data-reveal-block>
+      <h3>Computer Vision</h3>
+      <span class="service-row__tags">OpenCV · Edge Detection · Real-time Filters</span>
+    </div>
+    <div class="service-row" data-reveal-block>
+      <h3>Data &amp; APIs</h3>
+      <span class="service-row__tags">SQL · NLP &amp; TF-IDF · Third-party APIs</span>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED WORK -->
+<section class="work" id="work">
+  <div class="work__head">
+    <h2 data-reveal-block>Featured Projects</h2>
+    <a href="https://github.com/Manankundra" target="_blank" rel="noopener" class="work__view-all">View all on GitHub <span>↗</span></a>
+  </div>
+
+  <article class="project">
+    <div class="project__info">
+      <span class="project__tag">Computer Vision · React.js + FastAPI</span>
+      <h3>Pixelator</h3>
+      <p>An image processing web app where users upload an image and apply computer
+      vision operations in real time — grayscale conversion, edge detection, blur,
+      thresholding, and enhancement — powered by an OpenCV backend.</p>
+      <div class="project__links">
+        <a href="https://pixelator.vercel.app" target="_blank" rel="noopener">Live site ↗</a>
+        <a href="https://github.com/Manankundra/Pixelator-frontend" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </div>
+    <div class="project__visual" data-reveal-img>
+      <img src="assets/project-pixelator.jpg" alt="Pixelator app screenshot — image upload and computer vision operations panel" />
+    </div>
+  </article>
+
+  <article class="project project--reverse">
+    <div class="project__info">
+      <span class="project__tag">Full-Stack SaaS · React.js</span>
+      <h3>HRM Task &amp; Payment Management System</h3>
+      <p>A role-based task management system for three tiers of users — Super Admin,
+      Admin, and Employee — with authentication, task assignment and approval flows,
+      image-based task verification, and dashboards for tracking completion and
+      performance.</p>
+      <div class="project__links">
+        <a href="https://front-end-updated-eta.vercel.app/" target="_blank" rel="noopener">Live site ↗</a>
+        <a href="https://github.com/hrm00135-ai/Front-end" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </div>
+    <div class="project__visual" data-reveal-img>
+      <img src="assets/project-hrm.jpg" alt="HRM Task & Payment Management System — Super Admin dashboard" />
+    </div>
+  </article>
+
+  <article class="project">
+    <div class="project__info">
+      <span class="project__tag">AI / ML · Python, SQL, Scikit-learn, NLP</span>
+      <h3>Movie Recommendation System</h3>
+      <p>A hybrid recommendation engine combining content-based filtering (TF-IDF +
+      cosine similarity) with collaborative filtering, processing 15,000+ Hindi and
+      English movies to generate personalized top-5 suggestions.</p>
+      <div class="project__links">
+        <a href="https://github.com/Manankundra/movie-recommendation/tree/main" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </div>
+    <div class="project__visual" data-reveal-img>
+      <img src="assets/project-movie.jpg" alt="Movie recommendation app — search and generated recommendations screen" />
+    </div>
+  </article>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="experience" id="experience">
+  <h2 data-reveal-block>Experience</h2>
+  <div class="timeline">
+    <div class="timeline__item">
+      <span class="timeline__date">Oct 2025 — Mar 2026</span>
+      <div class="timeline__body">
+        <h3>AI/ML Trainee &amp; Intern — CodingBolt, Delhi</h3>
+        <p>Completed a 6-month AI/ML training program. Built machine learning models
+        with scikit-learn, worked on recommendation systems and classification
+        problems on real-world datasets, and strengthened structured coding practices.</p>
+      </div>
+    </div>
+    <div class="timeline__item">
+      <span class="timeline__date">Feb 2025 — Mar 2025</span>
+      <div class="timeline__body">
+        <h3>Data Science Intern — Deloitte</h3>
+        <p>Performed data cleaning, preprocessing, and exploratory data analysis on
+        structured datasets to support data-driven decision making.</p>
+      </div>
+    </div>
+    <div class="timeline__item">
+      <span class="timeline__date">May 2025 — Jun 2025</span>
+      <div class="timeline__body">
+        <h3>Python Programming Intern — CodTech IT Solutions</h3>
+        <p>Worked with Python for data processing and API integration, improving data
+        quality through validation and transformation techniques.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="certs">
+    <h3 data-reveal-block>Certifications &amp; achievements</h3>
+    <div class="certs__grid">
+      <div class="cert-card">
+        <span class="cert-card__date">2026</span>
+        <h4>AI/ML Training &amp; Internship</h4>
+        <p>CodingBolt, Delhi</p>
+      </div>
+      <div class="cert-card">
+        <span class="cert-card__date">2025</span>
+        <h4>Data Science Internship</h4>
+        <p>Deloitte</p>
+      </div>
+      <div class="cert-card">
+        <span class="cert-card__date">2025</span>
+        <h4>Smart India Hackathon</h4>
+        <p>Internal Round</p>
+      </div>
+      <div class="cert-card cert-card--cta">
+        <p>See how it all comes together — explore my projects on GitHub</p>
+        <a href="https://github.com/Manankundra" target="_blank" rel="noopener">View GitHub <span>↗</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <h2 data-reveal-block>Let's talk.</h2>
+  <p class="contact__sub">Have a project or need help? Fill out the form, and I'll get back to you soon.</p>
+
+  <div class="contact__grid">
+    <div class="contact__info">
+      <p>Currently open to freelance work and full-time opportunities.</p>
+      <a href="mailto:kundramanan14@gmail.com" class="contact__email">kundramanan14@gmail.com</a>
+      <div class="contact__socials">
+        <a href="https://www.linkedin.com/in/manan-kundra/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+        <a href="https://github.com/Manankundra" target="_blank" rel="noopener" aria-label="GitHub">gh</a>
+        <a href="tel:+919310099345" aria-label="Phone">ph</a>
+      </div>
+    </div>
+    <form class="contact__form" id="contactForm">
+      <label>
+        <span>Name</span>
+        <input type="text" name="name" placeholder="Enter your name" required />
+      </label>
+      <label>
+        <span>Email</span>
+        <input type="email" name="email" placeholder="Enter your email" required />
+      </label>
+      <label>
+        <span>Your project</span>
+        <textarea name="message" rows="4" placeholder="Tell me about your project" required></textarea>
+      </label>
+      <button type="submit" class="btn btn--submit">Submit</button>
+      <p class="contact__form-note" id="formNote"></p>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer__inner">
+    <h2 class="footer__cta">Building<br>real products.</h2>
+
+    <div class="footer__row">
+      <div class="footer__col">
+        <span class="footer__label">/Quick links</span>
+        <div class="footer__pills">
+          <a href="#top">Home</a>
+          <a href="#about">About Me</a>
+          <a href="#services">Services</a>
+          <a href="#work">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <span class="footer__label">/Contact</span>
+        <a href="mailto:kundramanan14@gmail.com">kundramanan14@gmail.com</a>
+        <a href="https://www.linkedin.com/in/manan-kundra/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/Manankundra" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+
+    <div class="footer__wordmark" aria-hidden="true">MANAN</div>
+
+    <div class="footer__base">
+      <span>MANAN KUNDRA</span>
+      <span>© 2026</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
