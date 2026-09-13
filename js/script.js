@@ -168,8 +168,8 @@ if (revealBlocks.length) {
 // ============================================
 // 1. Create a Supabase project → run supabase-schema.sql in its SQL Editor.
 // 2. Project Settings → API → copy the "Project URL" and "anon public" key below.
-const SUPABASE_URL = 'YOUR_SUPABASE_PROJECT_URL';   // e.g. https://xxxxx.supabase.co
-const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY';
+const SUPABASE_URL = 'https://istqjjznyzviefltpkpn.supabase.co';   // e.g. https://xxxxx.supabase.co
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlzdHFqanpueXp2aWVmbHRwa3BuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODkyOTgyMzIsImV4cCI6MjEwNDg3NDIzMn0.JRq1RrzW-aK5zakGYvuKJGphq1Ul07TS6YDQlIjcfdQs';
 
 const form = document.getElementById('contactForm');
 const note = document.getElementById('formNote');
